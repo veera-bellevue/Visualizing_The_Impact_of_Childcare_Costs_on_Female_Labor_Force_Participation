@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veera Indugu - Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            min-height: 100vh;
+        }
+
+        #about {
+            background-color: #f8f9fa;
+            padding-top: 6rem;
+        }
+
+        #projects {
+            background-color: white;
+        }
+
+        #contact {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #2c3e50;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #34495e;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .key-points {
+            margin: 1.5rem 0;
+        }
+
+        .key-points h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .contact-info a {
+            color: #2c3e50;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .contact-info a:hover {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>I am a data analyst and researcher focused on exploring socioeconomic factors that impact workforce participation and gender equity. My current work examines the relationship between childcare costs and female labor force participation in the United States, aiming to provide actionable insights for policymakers.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="project-card">
+                <h2>Impact of Childcare Costs on Female Labor Force Participation</h2>
+                
+                <div class="key-points">
+                    <h3>Overview</h3>
+                    <p>This project explores the relationship between childcare costs and female labor force participation in the United States, providing actionable insights for policymakers to address barriers to women's employment.</p>
+                </div>
+
+                <div class="key-points">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>State-level childcare costs analysis</li>
+                        <li>Comparative insights on geographic disparities</li>
+                        <li>Policy recommendations for improving access</li>
+                    </ul>
+                </div>
+
+                <div class="key-points">
+                    <h3>Key Insights</h3>
+                    <ul>
+                        <li>Significant cost variation by state and region</li>
+                        <li>Strong correlation between infant/toddler care costs and labor force participation</li>
+                        <li>State-specific findings for California, West Virginia, and Idaho</li>
+                    </ul>
+                </div>
+
+                <div class="key-points">
+                    <h3>Technologies Used</h3>
+                    <ul>
+                        <li>Python 3.x</li>
+                        <li>Pandas, NumPy, Matplotlib, Seaborn</li>
+                        <li>Jupyter Notebook</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h1>Contact</h1>
+            <div class="contact-info">
+                <h2>Veera Indugu</h2>
+                <a href="https://www.linkedin.com/in/veera-venkata-raghun-indugu/" target="_blank">v
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn Profile
+                </a>
+                <a href="https://github.com/veera-bellevue/childcare-costs-labor-participation" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Project Repository
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
